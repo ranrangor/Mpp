@@ -1,0 +1,438 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARG_0	include/console.h	/^    ARG_0=0,$/;"	e	enum:__anon1
+ARG_1	include/console.h	/^    ARG_1,$/;"	e	enum:__anon1
+ARG_2	include/console.h	/^    ARG_2,$/;"	e	enum:__anon1
+ARG_3	include/console.h	/^    ARG_3=4,$/;"	e	enum:__anon1
+ARG_N	include/console.h	/^    ARG_N=8$/;"	e	enum:__anon1
+ARG_T	include/console.h	/^}ARG_T;$/;"	t	typeref:enum:__anon1
+BACKSPACE	source/linenoise.c	/^	BACKSPACE =  127    \/* Backspace *\/$/;"	e	enum:KEY_ACTION	file:
+CC	Makefile	/^CC=gcc $/;"	m
+CFLAGS	Makefile	/^CFLAGS= -I .\/include  -g -Wall$/;"	m
+CMDHIST_FILE	include/config.h	6;"	d
+CMD_HEAD_S	include/console.h	/^}CMD_HEAD_S;$/;"	t	typeref:struct:cmd_info_head
+CMD_INFO_S	include/console.h	/^}CMD_INFO_S;$/;"	t	typeref:struct:cmd_info
+CMD_LEN	include/console.h	6;"	d
+CMD_NUM	include/console.h	8;"	d
+CMDs	source/console.c	/^CMD_HEAD_S CMDs;$/;"	v
+CTRL_A	source/linenoise.c	/^	CTRL_A = 1,         \/* Ctrl+a *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_B	source/linenoise.c	/^	CTRL_B = 2,         \/* Ctrl-b *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_C	source/linenoise.c	/^	CTRL_C = 3,         \/* Ctrl-c *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_D	source/linenoise.c	/^	CTRL_D = 4,         \/* Ctrl-d *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_E	source/linenoise.c	/^	CTRL_E = 5,         \/* Ctrl-e *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_F	source/linenoise.c	/^	CTRL_F = 6,         \/* Ctrl-f *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_H	source/linenoise.c	/^	CTRL_H = 8,         \/* Ctrl-h *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_K	source/linenoise.c	/^	CTRL_K = 11,        \/* Ctrl+k *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_L	source/linenoise.c	/^	CTRL_L = 12,        \/* Ctrl+l *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_N	source/linenoise.c	/^	CTRL_N = 14,        \/* Ctrl-n *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_P	source/linenoise.c	/^	CTRL_P = 16,        \/* Ctrl-p *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_T	source/linenoise.c	/^	CTRL_T = 20,        \/* Ctrl-t *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_U	source/linenoise.c	/^	CTRL_U = 21,        \/* Ctrl+u *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_W	source/linenoise.c	/^	CTRL_W = 23,        \/* Ctrl+w *\/$/;"	e	enum:KEY_ACTION	file:
+ContinuePlay	source/player.c	/^void ContinuePlay(int param){$/;"	f
+DEFAULT_LIST	include/config.h	8;"	d
+DES_LEN	include/console.h	7;"	d
+ENTER	source/linenoise.c	/^	ENTER = 13,         \/* Enter *\/$/;"	e	enum:KEY_ACTION	file:
+ESC	source/linenoise.c	/^	ESC = 27,           \/* Escape *\/$/;"	e	enum:KEY_ACTION	file:
+EXEC	Makefile	/^EXEC=.\/app\/mpp$/;"	m
+FILE_NAME_LEN	include/file.h	9;"	d
+INCLUDE	Makefile	/^INCLUDE=.\/include$/;"	m
+KEY_ACTION	source/linenoise.c	/^enum KEY_ACTION{$/;"	g	file:
+KEY_NULL	source/linenoise.c	/^	KEY_NULL = 0,	    \/* NULL *\/$/;"	e	enum:KEY_ACTION	file:
+LDFLAGS	Makefile	/^LDFLAGS= $/;"	m
+LINENOISE_DEFAULT_HISTORY_MAX_LEN	source/linenoise.c	110;"	d	file:
+LINENOISE_HISTORY_NEXT	source/linenoise.c	640;"	d	file:
+LINENOISE_HISTORY_PREV	source/linenoise.c	641;"	d	file:
+LINENOISE_MAX_LINE	source/linenoise.c	111;"	d	file:
+LIST_NAME_LEN	include/file.h	6;"	d
+MAX_ARGS	source/parsecmd.c	8;"	d	file:
+MAX_FILE_COL	source/playlist.c	11;"	d	file:
+MP3_FILE_S	include/file.h	/^}MP3_FILE_S;$/;"	t	typeref:struct:_mp3_file
+MP3_HEAD_POOL_S	include/file.h	/^}MP3_HEAD_POOL_S;$/;"	t	typeref:struct:_mps_head_pool
+MP3_HEAD_S	include/file.h	/^}MP3_HEAD_S;$/;"	t	typeref:struct:_mp3_head
+MUSIC_ARTIST_LEN	include/file.h	7;"	d
+MUSIC_NAME_LEN	include/file.h	5;"	d
+MUSIC_PATH_LEN	include/file.h	8;"	d
+OBJS	Makefile	/^OBJS=${SRCS:.c=.o}$/;"	m
+OPTIONS	.trival/play.c	14;"	d	file:
+PLAY_INFO_S	include/play.h	/^}PLAY_INFO_S;$/;"	t	typeref:struct:play_info
+PLAY_MODE_DEFAULT	include/play.h	/^    PLAY_MODE_DEFAULT = 0x1,$/;"	e	enum:__anon2
+PLAY_MODE_LOOP	include/play.h	/^    PLAY_MODE_LOOP,$/;"	e	enum:__anon2
+PLAY_MODE_LOOPONE	include/play.h	/^    PLAY_MODE_LOOPONE,$/;"	e	enum:__anon2
+PLAY_MODE_RANDOM	include/play.h	/^    PLAY_MODE_RANDOM,$/;"	e	enum:__anon2
+PLAY_MODE_S	include/play.h	/^}PLAY_MODE_S;$/;"	t	typeref:enum:__anon2
+PLAY_STATUS_PAUSE	include/play.h	/^    PLAY_STATUS_PAUSE,$/;"	e	enum:__anon3
+PLAY_STATUS_PLAY	include/play.h	/^    PLAY_STATUS_PLAY = 0x1,$/;"	e	enum:__anon3
+PLAY_STATUS_RESERV	include/play.h	/^    PLAY_STATUS_RESERV,$/;"	e	enum:__anon3
+PLAY_STATUS_S	include/play.h	/^}PLAY_STATUS_S;$/;"	t	typeref:enum:__anon3
+PLAY_STATUS_STOP	include/play.h	/^    PLAY_STATUS_STOP,$/;"	e	enum:__anon3
+PLMUSIC_ARTIST_LEN	include/playlist.h	12;"	d
+PLMUSIC_FILE_LEN	include/playlist.h	11;"	d
+PLMUSIC_PATH_LEN	include/playlist.h	9;"	d
+PLMUSIC_TITLE_LEN	include/playlist.h	10;"	d
+PL_HEAD_S	include/playlist.h	/^}PL_HEAD_S;$/;"	t	typeref:struct:pl_head
+PL_MUSIC_S	include/playlist.h	/^}PL_MUSIC_S;$/;"	t	typeref:struct:pl_music
+PL_NAME_LEN	include/playlist.h	7;"	d
+PL_POOL_S	include/playlist.h	/^}PL_POOL_S;$/;"	t	typeref:struct:pl_pool
+PROMPT	include/config.h	11;"	d
+PausePlay	source/player.c	/^void PausePlay(int param){$/;"	f
+SAVLISTFILE	include/config.h	5;"	d
+SOURCE	Makefile	/^SOURCE=.\/source$/;"	m
+SRCS	Makefile	/^SRCS=.\/source\/main.c .\/source\/console.c .\/source\/file.c\\$/;"	m
+SignalInit	source/player.c	/^void SignalInit(){$/;"	f
+TAB	source/linenoise.c	/^	TAB = 9,            \/* Tab *\/$/;"	e	enum:KEY_ACTION	file:
+_H_CONFIG_	include/config.h	2;"	d
+_H_CONSOLE_	include/console.h	2;"	d
+_H_FILE_	include/file.h	2;"	d
+_H_PARSE_CMD_	include/parsecmd.h	2;"	d
+_H_PLAYLIST_	include/playlist.h	2;"	d
+_H_PLAY_	include/play.h	2;"	d
+__H_UTILS_	include/utils.h	2;"	d
+__LINENOISE_H	include/linenoise.h	38;"	d
+_atoi	source/utils.c	/^int _atoi(const char*desc)$/;"	f
+_mp3_file	include/file.h	/^typedef struct _mp3_file{$/;"	s
+_mp3_head	include/file.h	/^typedef struct _mp3_head{$/;"	s
+_mps_head_pool	include/file.h	/^typedef struct _mps_head_pool{$/;"	s
+abAppend	source/linenoise.c	/^static void abAppend(struct abuf *ab, const char *s, int len) {$/;"	f	file:
+abFree	source/linenoise.c	/^static void abFree(struct abuf *ab) {$/;"	f	file:
+abInit	source/linenoise.c	/^static void abInit(struct abuf *ab) {$/;"	f	file:
+abuf	source/linenoise.c	/^struct abuf {$/;"	s	file:
+add_to_pl	source/console.c	/^static void add_to_pl(MP3_FILE_S*file,void*d)$/;"	f	file:
+add_to_pl_l	source/console.c	/^static void add_to_pl_l(PL_MUSIC_S*music,void*d)$/;"	f	file:
+album	source/file.c	/^    char album[30];$/;"	m	struct:id3	file:
+argtype	include/console.h	/^    ARG_T argtype;$/;"	m	struct:cmd_info
+argvs_sort	source/utils.c	/^void argvs_sort(char**argvs)$/;"	f
+artist	include/file.h	/^    char artist[MUSIC_ARTIST_LEN+1];$/;"	m	struct:_mp3_file
+artist	include/playlist.h	/^    char artist[PLMUSIC_ARTIST_LEN+1];$/;"	m	struct:pl_music
+artist	source/file.c	/^    char artist[30];$/;"	m	struct:id3	file:
+atexit_registered	source/linenoise.c	/^static int atexit_registered = 0; \/* Register atexit just 1 time. *\/$/;"	v	file:
+b	source/linenoise.c	/^    char *b;$/;"	m	struct:abuf	file:
+bg_cb	source/console.c	/^void bg_cb(void*args)$/;"	f
+buf	source/linenoise.c	/^    char *buf;          \/* Edited line buffer. *\/$/;"	m	struct:linenoiseState	file:
+buffer	source/player.c	/^struct buffer {$/;"	s	file:
+buflen	source/linenoise.c	/^    size_t buflen;      \/* Edited line buffer size. *\/$/;"	m	struct:linenoiseState	file:
+cmd_callback	source/console.c	/^typedef void (*cmd_callback)(void*);$/;"	t	file:
+cmd_desc	include/console.h	/^    char cmd_desc[DES_LEN];$/;"	m	struct:cmd_info
+cmd_info	include/console.h	/^typedef struct cmd_info$/;"	s
+cmd_info_head	include/console.h	/^typedef struct cmd_info_head{$/;"	s
+cmd_name	include/console.h	/^    char cmd_name[CMD_LEN];$/;"	m	struct:cmd_info
+cmd_new	source/console.c	/^CMD_INFO_S* cmd_new(int level,ARG_T arg_type,const char* cmd_name,const char*cmd_desc,void(*callback)(void*))$/;"	f
+cmds_init	source/console.c	/^static void cmds_init()$/;"	f	file:
+cmp	source/utils.c	/^static int cmp(char**s1, char**s2){$/;"	f	file:
+cols	source/linenoise.c	/^    size_t cols;        \/* Number of columns in terminal. *\/$/;"	m	struct:linenoiseState	file:
+comment	source/file.c	/^    char comment[30];$/;"	m	struct:id3	file:
+completeLine	source/linenoise.c	/^static int completeLine(struct linenoiseState *ls) {$/;"	f	file:
+completionCallback	source/linenoise.c	/^static linenoiseCompletionCallback *completionCallback = NULL;$/;"	v	file:
+console_get_current_prefix	source/console.c	/^CMD_INFO_S*console_get_current_prefix(void)$/;"	f
+console_get_last_cmd	source/console.c	/^CMD_INFO_S*console_get_last_cmd(void)$/;"	f
+console_init	source/console.c	/^void console_init()$/;"	f
+console_quit	source/console.c	/^void console_quit()$/;"	f
+console_set_current_prefix	source/console.c	/^void console_set_current_prefix(CMD_INFO_S*prefix)$/;"	f
+console_set_last_cmd	source/console.c	/^void console_set_last_cmd(CMD_INFO_S*cmd)$/;"	f
+console_start	source/console.c	/^int console_start()$/;"	f
+creat_pl	source/playlist.c	/^void creat_pl(MP3_FILE_S*file,void*pl)$/;"	f
+cur_flst	include/file.h	/^    MP3_HEAD_S* cur_flst;$/;"	m	struct:_mps_head_pool
+cur_pl	include/playlist.h	/^    struct pl_head*cur_pl;$/;"	m	struct:pl_pool	typeref:struct:pl_pool::pl_head
+cur_plname	include/playlist.h	/^    char*cur_plname;$/;"	m	struct:pl_pool
+cur_prefix	source/console.c	/^CMD_INFO_S*cur_prefix=NULL;$/;"	v
+curmusic	include/play.h	/^    PL_MUSIC_S*curmusic;$/;"	m	struct:play_info
+curplaylist	include/play.h	/^    PL_HEAD_S*curplaylist;$/;"	m	struct:play_info
+cvec	include/linenoise.h	/^  char **cvec;$/;"	m	struct:linenoiseCompletions
+decode	source/player.c	/^int decode(unsigned char const *start, unsigned long length)$/;"	f	file:
+delete_pl	source/console.c	/^void delete_pl(PL_HEAD_S*pl,void *d)$/;"	f
+disableRawMode	source/linenoise.c	/^static void disableRawMode(int fd) {$/;"	f	file:
+enableRawMode	source/linenoise.c	/^static int enableRawMode(int fd) {$/;"	f	file:
+error	source/player.c	/^enum mad_flow error(void *data,$/;"	f	file:
+file_cb	source/console.c	/^void file_cb(void*args)$/;"	f
+file_clean_cb	source/console.c	/^void file_clean_cb(void*args)$/;"	f
+file_del	source/file.c	/^void file_del(MP3_FILE_S*file)$/;"	f
+file_init	source/file.c	/^MP3_FILE_S*file_init(const char *path,const char *name)$/;"	f
+file_init_for_path	source/file.c	/^MP3_FILE_S*file_init_for_path(const char *pathname)$/;"	f
+file_scan_cb	source/console.c	/^void file_scan_cb(void*args)$/;"	f
+file_select_cb	source/console.c	/^void file_select_cb(void*args)$/;"	f
+file_show_all_cb	source/console.c	/^void file_show_all_cb(void*args)$/;"	f
+file_show_cb	source/console.c	/^void file_show_cb(void*args)$/;"	f
+file_update_cb	source/console.c	/^void file_update_cb(void*args)$/;"	f
+filename	include/file.h	/^    char filename[FILE_NAME_LEN+1];$/;"	m	struct:_mp3_file
+filename	include/playlist.h	/^    char filename[PLMUSIC_FILE_LEN+1];$/;"	m	struct:pl_music
+find_cmd_by_name	source/console.c	/^CMD_INFO_S* find_cmd_by_name(CMD_HEAD_S*heads,const char*cmd_name)$/;"	f
+flst_add_file	source/file.c	/^void flst_add_file(MP3_HEAD_S*flst,MP3_FILE_S *pst)$/;"	f
+flst_del	source/file.c	/^void flst_del(MP3_HEAD_S*flst)$/;"	f
+flst_get_file_by	source/file.c	/^MP3_FILE_S* flst_get_file_by(MP3_HEAD_S*flst,const char* desc)$/;"	f
+flst_get_file_by_idx	source/file.c	/^MP3_FILE_S *flst_get_file_by_idx(MP3_HEAD_S*flst,int idx)$/;"	f
+flst_get_file_by_name	source/file.c	/^MP3_FILE_S* flst_get_file_by_name(MP3_HEAD_S*flst,const char* filename)$/;"	f
+flst_get_size	source/file.c	/^int flst_get_size(MP3_HEAD_S* flst)$/;"	f
+flst_new	source/file.c	/^MP3_HEAD_S* flst_new(const char*flstname)$/;"	f
+flst_new_for_path	source/file.c	/^MP3_HEAD_S* flst_new_for_path(const char*flstname,const char *dirpath)$/;"	f
+flst_pool	source/file.c	/^MP3_HEAD_POOL_S flst_pool;$/;"	v
+flst_pool_add_list	source/file.c	/^void flst_pool_add_list(MP3_HEAD_S*newlst)$/;"	f
+flst_pool_get_current_list	source/file.c	/^MP3_HEAD_S*flst_pool_get_current_list()$/;"	f
+flst_pool_get_list_by	source/file.c	/^MP3_HEAD_S*flst_pool_get_list_by(const char*desc)$/;"	f
+flst_pool_get_list_by_idx	source/file.c	/^MP3_HEAD_S*flst_pool_get_list_by_idx(int idx)$/;"	f
+flst_pool_get_list_by_name	source/file.c	/^MP3_HEAD_S*flst_pool_get_list_by_name(const char* flstname)$/;"	f
+flst_pool_get_size	source/file.c	/^int flst_pool_get_size()$/;"	f
+flst_pool_init	source/file.c	/^void flst_pool_init(){$/;"	f
+flst_pool_is_contain	source/file.c	/^int flst_pool_is_contain(MP3_HEAD_S*fl){$/;"	f
+flst_pool_remove_list	source/file.c	/^int flst_pool_remove_list(MP3_HEAD_S*pst)$/;"	f
+flst_pool_remove_list_by_name	source/file.c	/^int flst_pool_remove_list_by_name(const char*lstname)$/;"	f
+flst_pool_set_current_list	source/file.c	/^void flst_pool_set_current_list(MP3_HEAD_S*fl)$/;"	f
+flst_pool_travser	source/file.c	/^void flst_pool_travser(void(*func)(MP3_HEAD_S*,void*),void* d)$/;"	f
+flst_remove_file	source/file.c	/^int flst_remove_file(MP3_HEAD_S*flst,MP3_FILE_S *pst)$/;"	f
+flst_remove_file_by_idx	source/file.c	/^MP3_FILE_S*flst_remove_file_by_idx(MP3_HEAD_S*flst,int idx)$/;"	f
+flst_remove_file_by_name	source/file.c	/^MP3_FILE_S*flst_remove_file_by_name(MP3_HEAD_S*flst,const char*filename)$/;"	f
+flst_travser	source/file.c	/^void flst_travser(MP3_HEAD_S* flst,void(*func)(MP3_FILE_S*,void*),void*d)$/;"	f
+freeCompletions	source/linenoise.c	/^static void freeCompletions(linenoiseCompletions *lc) {$/;"	f	file:
+freeHistory	source/linenoise.c	/^static void freeHistory(void) {$/;"	f	file:
+free_argv	source/parsecmd.c	/^void free_argv(char**argv)$/;"	f
+g_stplay	.trival/play.c	/^static PLAY_INFO_S g_stplay = {PLAY_MODE_DEFAULT,$/;"	v	file:
+genre	source/file.c	/^    unsigned char genre;$/;"	m	struct:id3	file:
+getColumns	source/linenoise.c	/^static int getColumns(int ifd, int ofd) {$/;"	f	file:
+getCursorPosition	source/linenoise.c	/^static int getCursorPosition(int ifd, int ofd) {$/;"	f	file:
+get_remainder_argv_n	source/console.c	/^static int get_remainder_argv_n(char**argvs)$/;"	f	file:
+get_valid_argv	source/console.c	/^static int get_valid_argv(char** argvs)$/;"	f	file:
+handle	source/player.c	/^snd_pcm_t*             handle=NULL;        \/\/PCI设备句柄$/;"	v
+head	include/console.h	/^    struct cmd_info*head;$/;"	m	struct:cmd_info_head	typeref:struct:cmd_info_head::cmd_info
+head	include/file.h	/^    struct _mp3_file *head;$/;"	m	struct:_mp3_head	typeref:struct:_mp3_head::_mp3_file
+head	include/file.h	/^    struct _mp3_head* head;$/;"	m	struct:_mps_head_pool	typeref:struct:_mps_head_pool::_mp3_head
+head	include/playlist.h	/^    struct pl_head *head;$/;"	m	struct:pl_pool	typeref:struct:pl_pool::pl_head
+head	include/playlist.h	/^    struct pl_music *head;$/;"	m	struct:pl_head	typeref:struct:pl_head::pl_music
+help_cb	source/console.c	/^void help_cb(void*args)$/;"	f
+history	source/linenoise.c	/^static char **history = NULL;$/;"	v	file:
+history_index	source/linenoise.c	/^    int history_index;  \/* The history index we are currently editing. *\/$/;"	m	struct:linenoiseState	file:
+history_len	source/linenoise.c	/^static int history_len = 0;$/;"	v	file:
+history_max_len	source/linenoise.c	/^static int history_max_len = LINENOISE_DEFAULT_HISTORY_MAX_LEN;$/;"	v	file:
+id3	source/file.c	/^  struct id3 {$/;"	s	file:
+ifd	source/linenoise.c	/^    int ifd;            \/* Terminal stdin file descriptor. *\/$/;"	m	struct:linenoiseState	file:
+input	source/player.c	/^enum mad_flow input(void *data,$/;"	f	file:
+insert_cmd_at	source/console.c	/^void insert_cmd_at(CMD_HEAD_S*heads,CMD_INFO_S*newcmd)$/;"	f
+invoke_cmd	source/console.c	/^void invoke_cmd(CMD_HEAD_S*heads,char** argvs)$/;"	f
+isUnsupportedTerm	source/linenoise.c	/^static int isUnsupportedTerm(void) {$/;"	f	file:
+last_cmd	source/console.c	/^CMD_INFO_S*last_cmd=NULL;$/;"	v
+len	include/linenoise.h	/^  size_t len;$/;"	m	struct:linenoiseCompletions
+len	source/linenoise.c	/^    int len;$/;"	m	struct:abuf	file:
+len	source/linenoise.c	/^    size_t len;         \/* Current edited line length. *\/$/;"	m	struct:linenoiseState	file:
+length	source/player.c	/^	unsigned long length;$/;"	m	struct:buffer	file:
+level	include/console.h	/^    int level;$/;"	m	struct:cmd_info
+line_get_m_filename	source/playlist.c	/^char*line_get_m_filename(const char*line){$/;"	f
+line_get_pl_name	source/playlist.c	/^char*line_get_pl_name(const char* line)$/;"	f
+line_is_not_blank	source/playlist.c	/^static int line_is_not_blank(const char*line)$/;"	f	file:
+line_is_pl_end	source/playlist.c	/^static int line_is_pl_end(const char*line)$/;"	f	file:
+line_is_pl_start	source/playlist.c	/^static int line_is_pl_start(const char*line)$/;"	f	file:
+linenoise	source/linenoise.c	/^char *linenoise(const char *prompt) {$/;"	f
+linenoiseAddCompletion	source/linenoise.c	/^void linenoiseAddCompletion(linenoiseCompletions *lc, const char *str) {$/;"	f
+linenoiseAtExit	source/linenoise.c	/^static void linenoiseAtExit(void) {$/;"	f	file:
+linenoiseBeep	source/linenoise.c	/^static void linenoiseBeep(void) {$/;"	f	file:
+linenoiseClearScreen	source/linenoise.c	/^void linenoiseClearScreen(void) {$/;"	f
+linenoiseCompletionCallback	include/linenoise.h	/^typedef void(linenoiseCompletionCallback)(const char *, linenoiseCompletions *);$/;"	t
+linenoiseCompletions	include/linenoise.h	/^typedef struct linenoiseCompletions {$/;"	s
+linenoiseCompletions	include/linenoise.h	/^} linenoiseCompletions;$/;"	t	typeref:struct:linenoiseCompletions
+linenoiseEdit	source/linenoise.c	/^static int linenoiseEdit(int stdin_fd, int stdout_fd, char *buf, size_t buflen, const char *prompt)$/;"	f	file:
+linenoiseEditBackspace	source/linenoise.c	/^void linenoiseEditBackspace(struct linenoiseState *l) {$/;"	f
+linenoiseEditDelete	source/linenoise.c	/^void linenoiseEditDelete(struct linenoiseState *l) {$/;"	f
+linenoiseEditDeletePrevWord	source/linenoise.c	/^void linenoiseEditDeletePrevWord(struct linenoiseState *l) {$/;"	f
+linenoiseEditHistoryNext	source/linenoise.c	/^void linenoiseEditHistoryNext(struct linenoiseState *l, int dir) {$/;"	f
+linenoiseEditInsert	source/linenoise.c	/^int linenoiseEditInsert(struct linenoiseState *l, char c) {$/;"	f
+linenoiseEditMoveEnd	source/linenoise.c	/^void linenoiseEditMoveEnd(struct linenoiseState *l) {$/;"	f
+linenoiseEditMoveHome	source/linenoise.c	/^void linenoiseEditMoveHome(struct linenoiseState *l) {$/;"	f
+linenoiseEditMoveLeft	source/linenoise.c	/^void linenoiseEditMoveLeft(struct linenoiseState *l) {$/;"	f
+linenoiseEditMoveRight	source/linenoise.c	/^void linenoiseEditMoveRight(struct linenoiseState *l) {$/;"	f
+linenoiseHistoryAdd	source/linenoise.c	/^int linenoiseHistoryAdd(const char *line) {$/;"	f
+linenoiseHistoryLoad	source/linenoise.c	/^int linenoiseHistoryLoad(const char *filename) {$/;"	f
+linenoiseHistorySave	source/linenoise.c	/^int linenoiseHistorySave(const char *filename) {$/;"	f
+linenoiseHistorySetMaxLen	source/linenoise.c	/^int linenoiseHistorySetMaxLen(int len) {$/;"	f
+linenoisePrintKeyCodes	source/linenoise.c	/^void linenoisePrintKeyCodes(void) {$/;"	f
+linenoiseRaw	source/linenoise.c	/^static int linenoiseRaw(char *buf, size_t buflen, const char *prompt) {$/;"	f	file:
+linenoiseSetCompletionCallback	source/linenoise.c	/^void linenoiseSetCompletionCallback(linenoiseCompletionCallback *fn) {$/;"	f
+linenoiseSetMultiLine	source/linenoise.c	/^void linenoiseSetMultiLine(int ml) {$/;"	f
+linenoiseState	source/linenoise.c	/^struct linenoiseState {$/;"	s	file:
+list_add_cb	source/console.c	/^void list_add_cb(void*args)$/;"	f
+list_cb	source/console.c	/^void list_cb(void*args)$/;"	f
+list_copy_cb	source/console.c	/^void list_copy_cb(void*args)$/;"	f
+list_del_all_cb	source/console.c	/^void list_del_all_cb(void*args)$/;"	f
+list_del_cb	source/console.c	/^void list_del_cb(void*args)$/;"	f
+list_file_list	source/console.c	/^void list_file_list(MP3_FILE_S* file,void*d)$/;"	f
+list_from_cb	source/console.c	/^void list_from_cb(void*args)$/;"	f
+list_name	include/file.h	/^    char list_name[LIST_NAME_LEN+1];\/\/pathname$/;"	m	struct:_mp3_head
+list_new_cb	source/console.c	/^void list_new_cb(void*args)$/;"	f
+list_pl	source/console.c	/^static void list_pl(PL_MUSIC_S* m,void*d)$/;"	f	file:
+list_remove_all_cb	source/console.c	/^void list_remove_all_cb(void*args)$/;"	f
+list_remove_cb	source/console.c	/^void list_remove_cb(void*args)$/;"	f
+list_rename_cb	source/console.c	/^void list_rename_cb(void*args)$/;"	f
+list_save_all_cb	source/console.c	/^void list_save_all_cb(void*args)$/;"	f
+list_save_cb	source/console.c	/^void list_save_cb(void*args)$/;"	f
+list_select_cb	source/console.c	/^void list_select_cb(void*args)$/;"	f
+list_show_all_cb	source/console.c	/^void list_show_all_cb(void*args)$/;"	f
+list_show_cb	source/console.c	/^void list_show_cb(void*args)$/;"	f
+ln_completion	source/console.c	/^void ln_completion(const char *buf, linenoiseCompletions *lc) {$/;"	f
+lndebug	source/linenoise.c	183;"	d	file:
+main	.trival/kill.c	/^int main()$/;"	f
+main	.trival/test.c	/^int main(){$/;"	f
+main	source/main.c	/^int main(int argc,char** argv)$/;"	f
+main	source/mplayer.c	/^int main(int argc,char** argv)$/;"	f
+main	source/player.c	/^int main(int argc, char *argv[])$/;"	f
+maxmusic	include/file.h	/^    int maxmusic;$/;"	m	struct:_mp3_head
+maxrows	source/linenoise.c	/^    size_t maxrows;     \/* Maximum num of rows used so far (multiline mode) *\/$/;"	m	struct:linenoiseState	file:
+mlmode	source/linenoise.c	/^static int mlmode = 0;  \/* Multi line mode. Default is single line. *\/$/;"	v	file:
+mpp_getmodestring	.trival/play.c	/^char *mpp_getmodestring()$/;"	f
+mpp_getstatusstring	.trival/play.c	/^char * mpp_getstatusstring()$/;"	f
+mpp_play_createprocess	.trival/play.c	/^static pid_t mpp_play_createprocess(const char *args)$/;"	f	file:
+mpp_play_getpid	.trival/play.c	/^int mpp_play_getpid()$/;"	f
+mpp_play_getplayname	.trival/play.c	/^char * mpp_play_getplayname()$/;"	f
+mpp_play_getplaypath	.trival/play.c	/^char *mpp_play_getplaypath()$/;"	f
+mpp_play_kill	.trival/play.c	/^static int mpp_play_kill(int signum)$/;"	f	file:
+mpp_play_pausemusic	.trival/play.c	/^int mpp_play_pausemusic()$/;"	f
+mpp_play_playmusic	.trival/play.c	/^int mpp_play_playmusic(const char *filename,const char *artist,$/;"	f
+mpp_play_setmode	.trival/play.c	/^int mpp_play_setmode(PLAY_MODE_S emode)$/;"	f
+mpp_play_stopmusic	.trival/play.c	/^int mpp_play_stopmusic()$/;"	f
+mpp_play_wait	.trival/play.c	/^void mpp_play_wait(int argc)$/;"	f
+musicname	include/playlist.h	/^    char musicname[PLMUSIC_TITLE_LEN+1];$/;"	m	struct:pl_music
+musicpath	include/playlist.h	/^    char musicpath[PLMUSIC_PATH_LEN+1];$/;"	m	struct:pl_music
+name	include/file.h	/^    char name[MUSIC_NAME_LEN+1];$/;"	m	struct:_mp3_file
+next	include/console.h	/^    struct cmd_info* next;$/;"	m	struct:cmd_info	typeref:struct:cmd_info::cmd_info
+next	include/file.h	/^    struct _mp3_file *next;$/;"	m	struct:_mp3_file	typeref:struct:_mp3_file::_mp3_file
+next	include/file.h	/^    struct _mp3_head*next;$/;"	m	struct:_mp3_head	typeref:struct:_mp3_head::_mp3_head
+next	include/playlist.h	/^    struct pl_head*next;$/;"	m	struct:pl_head	typeref:struct:pl_head::pl_head
+next	include/playlist.h	/^    struct pl_music *next;$/;"	m	struct:pl_music	typeref:struct:pl_music::pl_music
+num_of_cmds	include/console.h	/^    int num_of_cmds;$/;"	m	struct:cmd_info_head
+num_of_list	include/file.h	/^    int num_of_list;$/;"	m	struct:_mps_head_pool
+num_of_list	include/playlist.h	/^    int num_of_list;$/;"	m	struct:pl_pool
+ofd	source/linenoise.c	/^    int ofd;            \/* Terminal stdout file descriptor. *\/$/;"	m	struct:linenoiseState	file:
+oldpos	source/linenoise.c	/^    size_t oldpos;      \/* Previous refresh cursor position. *\/$/;"	m	struct:linenoiseState	file:
+orig_termios	source/linenoise.c	/^static struct termios orig_termios; \/* In order to restore at exit.*\/$/;"	v	typeref:struct:termios	file:
+output	source/player.c	/^enum mad_flow output(void *data,$/;"	f	file:
+pFun	include/console.h	/^    void (*pFun)(void *);$/;"	m	struct:cmd_info
+params	source/player.c	/^snd_pcm_hw_params_t*   params=NULL;\/\/硬件信息和PCM流配置$/;"	v
+parse_cmd	source/parsecmd.c	/^char** parse_cmd(const char*totalcmd)$/;"	f
+parse_cmds_n	source/parsecmd.c	/^char** parse_cmds_n(const char *total_cmd_line)$/;"	f
+parse_pl_file	source/playlist.c	/^static int parse_pl_file(FILE*fp)$/;"	f	file:
+path	include/file.h	/^    char path[MUSIC_PATH_LEN+1];$/;"	m	struct:_mp3_file
+path_get_name	source/file.c	/^const char*path_get_name(const char*fullpath)$/;"	f
+pause_hdr	source/mplayer.c	/^static void pause_hdr(int signo)$/;"	f	file:
+pl_add_file	source/playlist.c	/^void pl_add_file(PL_HEAD_S*pl,MP3_FILE_S*file)$/;"	f
+pl_add_music	source/playlist.c	/^void pl_add_music(PL_HEAD_S*pl,PL_MUSIC_S*music)$/;"	f
+pl_add_music_by_name	source/playlist.c	/^void pl_add_music_by_name(PL_HEAD_S*pl,MP3_HEAD_S*flst,const char*filename)$/;"	f
+pl_del	source/playlist.c	/^void pl_del(PL_HEAD_S*pl)$/;"	f
+pl_del_by_name	source/playlist.c	/^void pl_del_by_name(const char*plname)$/;"	f
+pl_get_music_by	source/playlist.c	/^PL_MUSIC_S*pl_get_music_by(PL_HEAD_S*pl,const char*desc)$/;"	f
+pl_get_music_by_idx	source/playlist.c	/^PL_MUSIC_S*pl_get_music_by_idx(PL_HEAD_S*pl,int idx)$/;"	f
+pl_get_music_by_name	source/playlist.c	/^PL_MUSIC_S*pl_get_music_by_name(PL_HEAD_S*pl,const char*name)$/;"	f
+pl_get_size	source/playlist.c	/^int pl_get_size(PL_HEAD_S*pl)$/;"	f
+pl_head	include/playlist.h	/^typedef struct pl_head$/;"	s
+pl_mark_to_save	source/console.c	/^static void pl_mark_to_save(PL_HEAD_S*pl,void *d)$/;"	f	file:
+pl_music	include/playlist.h	/^typedef struct pl_music$/;"	s
+pl_music_copy	source/playlist.c	/^PL_MUSIC_S*pl_music_copy(PL_MUSIC_S*om)$/;"	f
+pl_music_del	source/playlist.c	/^void pl_music_del(PL_MUSIC_S*music)$/;"	f
+pl_music_new	source/playlist.c	/^PL_MUSIC_S*pl_music_new(MP3_FILE_S*file){$/;"	f
+pl_music_new_for_path	source/playlist.c	/^PL_MUSIC_S*pl_music_new_for_path(const char*path){$/;"	f
+pl_new	source/playlist.c	/^PL_HEAD_S*pl_new(int plidx,const char*plname)$/;"	f
+pl_new_from_flst	source/playlist.c	/^PL_HEAD_S*pl_new_from_flst(MP3_HEAD_S*flst,const char*plname)$/;"	f
+pl_pool	include/playlist.h	/^typedef struct pl_pool{$/;"	s
+pl_pool	source/playlist.c	/^PL_POOL_S pl_pool;$/;"	v
+pl_pool_add_list	source/playlist.c	/^void pl_pool_add_list(PL_HEAD_S*pl)$/;"	f
+pl_pool_get_current_list	source/playlist.c	/^PL_HEAD_S* pl_pool_get_current_list()$/;"	f
+pl_pool_get_current_name	source/playlist.c	/^const char* pl_pool_get_current_name()$/;"	f
+pl_pool_get_default_list	source/playlist.c	/^PL_HEAD_S* pl_pool_get_default_list()$/;"	f
+pl_pool_get_list_by	source/playlist.c	/^PL_HEAD_S*pl_pool_get_list_by(const char*str)$/;"	f
+pl_pool_get_list_by_idx	source/playlist.c	/^PL_HEAD_S*pl_pool_get_list_by_idx(int idx)$/;"	f
+pl_pool_get_list_by_name	source/playlist.c	/^PL_HEAD_S*pl_pool_get_list_by_name(const char*name)$/;"	f
+pl_pool_get_size	source/playlist.c	/^int pl_pool_get_size()$/;"	f
+pl_pool_init	source/playlist.c	/^void pl_pool_init(){$/;"	f
+pl_pool_insert_list	source/playlist.c	/^void pl_pool_insert_list(PL_HEAD_S*pl,int pos)$/;"	f
+pl_pool_is_contain_list	source/playlist.c	/^int pl_pool_is_contain_list(PL_HEAD_S*pl)$/;"	f
+pl_pool_load_from_file	source/playlist.c	/^int pl_pool_load_from_file(const char*fname)$/;"	f
+pl_pool_remove_list	source/playlist.c	/^int pl_pool_remove_list(PL_HEAD_S*pl)$/;"	f
+pl_pool_remove_list_by	source/playlist.c	/^PL_HEAD_S*pl_pool_remove_list_by(const char*desc)$/;"	f
+pl_pool_remove_list_by_idx	source/playlist.c	/^PL_HEAD_S* pl_pool_remove_list_by_idx(int idx)$/;"	f
+pl_pool_remove_list_by_name	source/playlist.c	/^PL_HEAD_S* pl_pool_remove_list_by_name(const char*plname)$/;"	f
+pl_pool_reset_default	source/playlist.c	/^PL_HEAD_S*pl_pool_reset_default()$/;"	f
+pl_pool_save_to_file	source/playlist.c	/^int pl_pool_save_to_file(const char*fname)$/;"	f
+pl_pool_set_current_list	source/playlist.c	/^void pl_pool_set_current_list(PL_HEAD_S*pl)$/;"	f
+pl_pool_travser	source/playlist.c	/^void pl_pool_travser(void(*func)(PL_HEAD_S*pl,void*),void*d)$/;"	f
+pl_remove_music	source/playlist.c	/^PL_MUSIC_S* pl_remove_music(PL_HEAD_S*pl,PL_MUSIC_S*music)$/;"	f
+pl_remove_music_by	source/playlist.c	/^PL_MUSIC_S* pl_remove_music_by(PL_HEAD_S*pl,const char*desc)$/;"	f
+pl_remove_music_by_idx	source/playlist.c	/^PL_MUSIC_S* pl_remove_music_by_idx(PL_HEAD_S*pl,int idx)$/;"	f
+pl_remove_music_by_name	source/playlist.c	/^PL_MUSIC_S* pl_remove_music_by_name(PL_HEAD_S*pl,const char*name)$/;"	f
+pl_travser	source/playlist.c	/^void pl_travser(PL_HEAD_S*pl, void(*pFunc)(PL_MUSIC_S*,void*),void*d)$/;"	f
+pl_travser_by_name	source/playlist.c	/^void pl_travser_by_name(const char *plname ,void (*pFunc)(PL_MUSIC_S*,void*),void*d)$/;"	f
+play_cb	source/console.c	/^void play_cb(void*args)$/;"	f
+play_from_cb	source/console.c	/^void play_from_cb(void*args)$/;"	f
+play_get_current_music	source/play.c	/^PL_MUSIC_S*play_get_current_music()$/;"	f
+play_get_current_music_name	source/play.c	/^const char*play_get_current_music_name()$/;"	f
+play_get_current_pl	source/play.c	/^PL_HEAD_S*play_get_current_pl()$/;"	f
+play_get_next_music	source/play.c	/^PL_MUSIC_S* play_get_next_music()$/;"	f
+play_get_status	source/play.c	/^PLAY_STATUS_S play_get_status()$/;"	f
+play_info	include/play.h	/^typedef struct play_info$/;"	s
+play_info	source/play.c	/^PLAY_INFO_S play_info;$/;"	v
+play_init	source/play.c	/^void play_init()$/;"	f
+play_init_signal	source/play.c	/^void play_init_signal()$/;"	f
+play_kill_player	source/play.c	/^void play_kill_player()$/;"	f
+play_list	source/play.c	/^void play_list(PL_HEAD_S*pl)$/;"	f
+play_list_cb	source/console.c	/^void play_list_cb(void*args)$/;"	f
+play_mode_cb	source/console.c	/^void play_mode_cb(void*args)$/;"	f
+play_music	source/play.c	/^void play_music(PL_MUSIC_S*music)$/;"	f
+play_next_cb	source/console.c	/^void play_next_cb(void*args)$/;"	f
+play_only_cb	source/console.c	/^void play_only_cb(void*args)$/;"	f
+play_pause	source/play.c	/^void  play_pause()$/;"	f
+play_pause_cb	source/console.c	/^void play_pause_cb(void*args)$/;"	f
+play_set_current_pl	source/play.c	/^void play_set_current_pl(PL_HEAD_S*pl)$/;"	f
+play_set_mode	source/play.c	/^void play_set_mode(PLAY_MODE_S emode)$/;"	f
+play_start	source/play.c	/^void play_start()$/;"	f
+play_start_cb	source/console.c	/^void play_start_cb(void*args)$/;"	f
+play_stop	source/play.c	/^void play_stop()$/;"	f
+play_stop_cb	source/console.c	/^void play_stop_cb(void*args)$/;"	f
+player_id	include/play.h	/^    pid_t player_id;$/;"	m	struct:play_info
+player_over	source/play.c	/^void player_over(int signo)$/;"	f
+playmode	include/play.h	/^    PLAY_MODE_S playmode;$/;"	m	struct:play_info
+playstatus	include/play.h	/^    PLAY_STATUS_S playstatus;$/;"	m	struct:play_info
+plen	source/linenoise.c	/^    size_t plen;        \/* Prompt length. *\/$/;"	m	struct:linenoiseState	file:
+plidx	include/playlist.h	/^    int   plidx;$/;"	m	struct:pl_head
+plname	include/playlist.h	/^    char plname[PL_NAME_LEN+1];$/;"	m	struct:pl_head
+plsize	include/playlist.h	/^    int   plsize;$/;"	m	struct:pl_head
+pos	source/linenoise.c	/^    size_t pos;         \/* Current cursor position. *\/$/;"	m	struct:linenoiseState	file:
+prev	include/playlist.h	/^    struct pl_music *prev;$/;"	m	struct:pl_music	typeref:struct:pl_music::pl_music
+print_argtype	source/console.c	/^void print_argtype(ARG_T type)$/;"	f
+print_argv	source/parsecmd.c	/^void print_argv(char**argv)$/;"	f
+print_cmds	source/console.c	/^void print_cmds(CMD_HEAD_S*heads)$/;"	f
+print_cmds0	source/console.c	/^void print_cmds0(CMD_HEAD_S*cmds_head)$/;"	f
+print_cur_prefix	source/console.c	/^void print_cur_prefix()$/;"	f
+print_indent	source/console.c	/^void print_indent(int n)$/;"	f
+print_mp3file	source/file.c	/^void print_mp3file(MP3_FILE_S*f)$/;"	f
+prompt	source/linenoise.c	/^    const char *prompt; \/* Prompt to display. *\/$/;"	m	struct:linenoiseState	file:
+quit_cb	source/console.c	/^void quit_cb(void*args)$/;"	f
+random	.trival/play.c	13;"	d	file:
+rawmode	source/linenoise.c	/^static int rawmode = 0; \/* For atexit() function to check if restore is needed*\/$/;"	v	file:
+read_mp3_tag_into	source/file.c	/^int read_mp3_tag_into(const char*filepath,MP3_FILE_S*mf)$/;"	f
+refreshLine	source/linenoise.c	/^static void refreshLine(struct linenoiseState *l) {$/;"	f	file:
+refreshMultiLine	source/linenoise.c	/^static void refreshMultiLine(struct linenoiseState *l) {$/;"	f	file:
+refreshSingleLine	source/linenoise.c	/^static void refreshSingleLine(struct linenoiseState *l) {$/;"	f	file:
+register_cmd	source/console.c	/^void register_cmd(CMD_HEAD_S*heads,const char**argvs,int cmdlevel,char*cmd_desc,ARG_T argtype,void(*callback)(void*))$/;"	f
+resume_hdr	source/mplayer.c	/^static void resume_hdr(int signo){$/;"	f	file:
+running	source/console.c	/^static volatile int running;$/;"	v	file:
+save_music	source/playlist.c	/^void save_music(PL_MUSIC_S*m,void*d)$/;"	f
+save_pl	source/playlist.c	/^void save_pl(PL_HEAD_S*pl,void*d)$/;"	f
+scale	source/player.c	/^signed int scale(mad_fixed_t sample)$/;"	f	file:
+set_pcm	source/player.c	/^int set_pcm()$/;"	f
+show_flists	source/console.c	/^void show_flists(MP3_HEAD_S*fl,void *d)$/;"	f
+show_plists	source/console.c	/^static void show_plists(PL_HEAD_S*pl,void*d)$/;"	f	file:
+sig_int_hdr	source/console.c	/^static void sig_int_hdr(int signo)$/;"	f	file:
+sig_tstp_hdr	source/console.c	/^static void sig_tstp_hdr(int signo)$/;"	f	file:
+signal_init	source/console.c	/^static void signal_init()$/;"	f	file:
+signal_init	source/mplayer.c	/^static void signal_init()$/;"	f	file:
+split_prefix	source/utils.c	/^char* split_prefix( char*args,char *spliter)$/;"	f
+start	source/player.c	/^	unsigned char const *start;$/;"	m	struct:buffer	file:
+strtrim	source/parsecmd.c	/^static char*strtrim(char*str)$/;"	f	file:
+sub_cmd	include/console.h	/^    struct cmd_info_head*sub_cmd;$/;"	m	struct:cmd_info	typeref:struct:cmd_info::cmd_info_head
+tag	source/file.c	/^    char tag[3];$/;"	m	struct:id3	file:
+tail	include/console.h	/^    struct cmd_info*tail;$/;"	m	struct:cmd_info_head	typeref:struct:cmd_info_head::cmd_info
+tail	include/file.h	/^    struct _mp3_file *tail;$/;"	m	struct:_mp3_head	typeref:struct:_mp3_head::_mp3_file
+tail	include/file.h	/^    struct _mp3_head* tail;$/;"	m	struct:_mps_head_pool	typeref:struct:_mps_head_pool::_mp3_head
+tail	include/playlist.h	/^    struct pl_head *tail;$/;"	m	struct:pl_pool	typeref:struct:pl_pool::pl_head
+title	source/file.c	/^    char title[30];$/;"	m	struct:id3	file:
+to_save	include/playlist.h	/^    int to_save;    $/;"	m	struct:pl_head
+unsupported_term	source/linenoise.c	/^static char *unsupported_term[] = {"dumb","cons25","emacs",NULL};$/;"	v	file:
+update_flst	source/console.c	/^void update_flst(MP3_HEAD_S*flst,void*d)$/;"	f
+year	source/file.c	/^    char year[4];$/;"	m	struct:id3	file:

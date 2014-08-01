@@ -1,0 +1,100 @@
+list sselect 3
+list select 3
+list show
+list show 3
+play only 3 4 1
+quit
+list show
+list select 3
+list show
+list show 3
+play only 1 3 5
+list show 1
+play only 3>1 3 5
+play stop
+list show 1
+list show
+list show 3
+list show 1
+list select 3
+list show
+play only 1 3 5
+list show 1
+list remove 3
+list show 3
+list new 000 from LOL
+list show
+list copy LOL
+quit
+list show
+list show 3
+list select LOL
+list show
+list show 3
+list remove 3
+list show 3
+list show 1
+play only 1 3 5
+quit
+list show
+list show LOL
+list select 3 remove 1
+list show 3
+play only 1 3 4
+play stop
+list show 1
+file scan mp3
+file scan mp5
+file show
+file show all
+file show 2
+file show 1
+list show 2
+list show
+list show PP
+list quit
+quit
+file scan mp5
+file scan mp3
+list show
+list show PP
+list show
+list show 2
+list delete 2
+list show
+list show LOL
+list show 1
+play mode
+list show
+list show LOL
+list show 2
+play only 1 3 4
+list selest 2
+list select 2
+list show 1
+play only 1 3 4
+play pause
+play start
+list show 1
+play stop
+list select 2
+play list 2
+play list 1
+quit
+list show
+list show LOL
+list select 2
+play only 1 3 4
+play pause
+play start
+play list 2
+play stop
+quit
+list show
+list select LOL
+list sshow 2
+list show 2
+play only 1 3 4
+play stop
+play start
+play list 1

@@ -1,0 +1,12 @@
+START_PLAYLIST::DEFAULT::
+  ITEM::/home/neo/ZZR/MPP/mp5/kgbky.mp3::
+  ITEM::/home/neo/ZZR/MPP/mp5/cry.mp3::
+  ITEM::/home/neo/ZZR/MPP/mp5/BL.mp3::
+END_PLAYLIST::DEFAULT::
+START_PLAYLIST::LOL::
+  ITEM::/home/neo/ZZR/MPP/mp5/kgbky.mp3::
+  ITEM::/home/neo/ZZR/MPP/mp5/sjdqnl.mp3::
+  ITEM::/home/neo/ZZR/MPP/mp5/cry.mp3::
+  ITEM::/home/neo/ZZR/MPP/mp5/BL.mp3::
+  ITEM::/home/neo/ZZR/MPP/mp5/The Fox.mp3::
+END_PLAYLIST::LOL::
