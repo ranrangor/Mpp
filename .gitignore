@@ -3,3 +3,4 @@ mp5/
 .trival/
 dependences/
 
+*.o
